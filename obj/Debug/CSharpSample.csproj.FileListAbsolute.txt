@@ -1,0 +1,13 @@
+C:\Users\admin\Desktop\Debug\iData_Iris_Sample_CS.exe
+C:\Users\admin\Desktop\Debug\iData_Iris_Sample_CS.pdb
+C:\Users\admin\Desktop\CSharpSampleIrisIdata\obj\Debug\CSharpSample.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\CSharpSampleIrisIdata\obj\Debug\Interop.iDataIrisAxLib.dll
+C:\Users\admin\Desktop\CSharpSampleIrisIdata\obj\Debug\CSharpSample.csproj.ResolveComReference.cache
+C:\Users\admin\Desktop\CSharpSampleIrisIdata\obj\Debug\CSharpSample.FrmMain.resources
+C:\Users\admin\Desktop\CSharpSampleIrisIdata\obj\Debug\CSharpSample.Properties.Resources.resources
+C:\Users\admin\Desktop\CSharpSampleIrisIdata\obj\Debug\CSharpSample.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\CSharpSampleIrisIdata\obj\Debug\CSharpSample.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\CSharpSampleIrisIdata\obj\Debug\iData_Iris_Sample_CS.exe
+C:\Users\admin\Desktop\CSharpSampleIrisIdata\obj\Debug\iData_Iris_Sample_CS.pdb
+C:\Users\admin\Desktop\Debug\iData_Iris_Sample_CS.exe.config
+C:\Users\admin\Desktop\CSharpSampleIrisIdata\obj\Debug\CSharpSample.csproj.SuggestedBindingRedirects.cache
