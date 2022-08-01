@@ -28,27 +28,27 @@ namespace CSharpSample
         /// </summary>
         private void InitializeComponent()
         {
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-			this.btnLoadImage = new System.Windows.Forms.Button();
-			this.picOriginal = new System.Windows.Forms.PictureBox();
-			this.picCropped = new System.Windows.Forms.PictureBox();
-			this.picProbe = new System.Windows.Forms.PictureBox();
-			this.picGallery = new System.Windows.Forms.PictureBox();
-			this.btnLoadProbe = new System.Windows.Forms.Button();
-			this.btnLoadGallery = new System.Windows.Forms.Button();
-			this.btnMatch = new System.Windows.Forms.Button();
-			this.lblImageQuality = new System.Windows.Forms.RichTextBox();
-			this.lblMatchResults = new System.Windows.Forms.RichTextBox();
-			this.picIsoRight = new System.Windows.Forms.PictureBox();
-			this.picIsoLeft = new System.Windows.Forms.PictureBox();
-			this.btnIsoLeftEye = new System.Windows.Forms.Button();
-			this.btnIsoRightEye = new System.Windows.Forms.Button();
-			this.btnCreateIso = new System.Windows.Forms.Button();
-			this.btnReadIso = new System.Windows.Forms.Button();
-			this.grpBoxImaging = new System.Windows.Forms.GroupBox();
-			this.btnLoadRAWCompress = new System.Windows.Forms.Button();
-			this.btnLoadClear = new System.Windows.Forms.Button();
-			this.grpBoxMatching = new System.Windows.Forms.GroupBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
+            this.btnLoadImage = new System.Windows.Forms.Button();
+            this.picOriginal = new System.Windows.Forms.PictureBox();
+            this.picCropped = new System.Windows.Forms.PictureBox();
+            this.picProbe = new System.Windows.Forms.PictureBox();
+            this.picGallery = new System.Windows.Forms.PictureBox();
+            this.btnLoadProbe = new System.Windows.Forms.Button();
+            this.btnLoadGallery = new System.Windows.Forms.Button();
+            this.btnMatch = new System.Windows.Forms.Button();
+            this.lblImageQuality = new System.Windows.Forms.RichTextBox();
+            this.lblMatchResults = new System.Windows.Forms.RichTextBox();
+            this.picIsoRight = new System.Windows.Forms.PictureBox();
+            this.picIsoLeft = new System.Windows.Forms.PictureBox();
+            this.btnIsoLeftEye = new System.Windows.Forms.Button();
+            this.btnIsoRightEye = new System.Windows.Forms.Button();
+            this.btnCreateIso = new System.Windows.Forms.Button();
+            this.btnReadIso = new System.Windows.Forms.Button();
+            this.grpBoxImaging = new System.Windows.Forms.GroupBox();
+            this.btnLoadRAWCompress = new System.Windows.Forms.Button();
+            this.btnLoadClear = new System.Windows.Forms.Button();
+            this.grpBoxMatching = new System.Windows.Forms.GroupBox();
             this.btnVerifyImage = new System.Windows.Forms.Button();
             this.btnMatchImage = new System.Windows.Forms.Button();
             this.btnVerify = new System.Windows.Forms.Button();
@@ -129,9 +129,10 @@ namespace CSharpSample
             // 
             // btnLoadImage
             // 
-            this.btnLoadImage.Location = new System.Drawing.Point(509, 113);
+            this.btnLoadImage.Location = new System.Drawing.Point(679, 139);
+            this.btnLoadImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLoadImage.Name = "btnLoadImage";
-            this.btnLoadImage.Size = new System.Drawing.Size(101, 23);
+            this.btnLoadImage.Size = new System.Drawing.Size(135, 28);
             this.btnLoadImage.TabIndex = 1;
             this.btnLoadImage.Text = "Load";
             this.btnLoadImage.UseVisualStyleBackColor = true;
@@ -140,9 +141,10 @@ namespace CSharpSample
             // picOriginal
             // 
             this.picOriginal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picOriginal.Location = new System.Drawing.Point(6, 16);
+            this.picOriginal.Location = new System.Drawing.Point(8, 20);
+            this.picOriginal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picOriginal.Name = "picOriginal";
-            this.picOriginal.Size = new System.Drawing.Size(140, 120);
+            this.picOriginal.Size = new System.Drawing.Size(186, 147);
             this.picOriginal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picOriginal.TabIndex = 1;
             this.picOriginal.TabStop = false;
@@ -150,9 +152,10 @@ namespace CSharpSample
             // picCropped
             // 
             this.picCropped.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picCropped.Location = new System.Drawing.Point(150, 16);
+            this.picCropped.Location = new System.Drawing.Point(200, 20);
+            this.picCropped.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picCropped.Name = "picCropped";
-            this.picCropped.Size = new System.Drawing.Size(140, 120);
+            this.picCropped.Size = new System.Drawing.Size(186, 147);
             this.picCropped.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picCropped.TabIndex = 1;
             this.picCropped.TabStop = false;
@@ -160,9 +163,10 @@ namespace CSharpSample
             // picProbe
             // 
             this.picProbe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picProbe.Location = new System.Drawing.Point(6, 15);
+            this.picProbe.Location = new System.Drawing.Point(8, 18);
+            this.picProbe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picProbe.Name = "picProbe";
-            this.picProbe.Size = new System.Drawing.Size(140, 120);
+            this.picProbe.Size = new System.Drawing.Size(186, 147);
             this.picProbe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picProbe.TabIndex = 1;
             this.picProbe.TabStop = false;
@@ -170,18 +174,20 @@ namespace CSharpSample
             // picGallery
             // 
             this.picGallery.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picGallery.Location = new System.Drawing.Point(150, 15);
+            this.picGallery.Location = new System.Drawing.Point(200, 18);
+            this.picGallery.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picGallery.Name = "picGallery";
-            this.picGallery.Size = new System.Drawing.Size(140, 120);
+            this.picGallery.Size = new System.Drawing.Size(186, 147);
             this.picGallery.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picGallery.TabIndex = 1;
             this.picGallery.TabStop = false;
             // 
             // btnLoadProbe
             // 
-            this.btnLoadProbe.Location = new System.Drawing.Point(43, 139);
+            this.btnLoadProbe.Location = new System.Drawing.Point(57, 171);
+            this.btnLoadProbe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLoadProbe.Name = "btnLoadProbe";
-            this.btnLoadProbe.Size = new System.Drawing.Size(101, 23);
+            this.btnLoadProbe.Size = new System.Drawing.Size(135, 28);
             this.btnLoadProbe.TabIndex = 3;
             this.btnLoadProbe.Text = "Load Probe";
             this.btnLoadProbe.UseVisualStyleBackColor = true;
@@ -189,9 +195,10 @@ namespace CSharpSample
             // 
             // btnLoadGallery
             // 
-            this.btnLoadGallery.Location = new System.Drawing.Point(189, 139);
+            this.btnLoadGallery.Location = new System.Drawing.Point(252, 171);
+            this.btnLoadGallery.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLoadGallery.Name = "btnLoadGallery";
-            this.btnLoadGallery.Size = new System.Drawing.Size(101, 23);
+            this.btnLoadGallery.Size = new System.Drawing.Size(135, 28);
             this.btnLoadGallery.TabIndex = 4;
             this.btnLoadGallery.Text = "Load Gallery";
             this.btnLoadGallery.UseVisualStyleBackColor = true;
@@ -200,9 +207,10 @@ namespace CSharpSample
             // btnMatch
             // 
             this.btnMatch.Enabled = false;
-            this.btnMatch.Location = new System.Drawing.Point(509, 64);
+            this.btnMatch.Location = new System.Drawing.Point(679, 79);
+            this.btnMatch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMatch.Name = "btnMatch";
-            this.btnMatch.Size = new System.Drawing.Size(101, 23);
+            this.btnMatch.Size = new System.Drawing.Size(135, 28);
             this.btnMatch.TabIndex = 5;
             this.btnMatch.Text = "Match By IrisCode";
             this.btnMatch.UseVisualStyleBackColor = true;
@@ -211,29 +219,32 @@ namespace CSharpSample
             // lblImageQuality
             // 
             this.lblImageQuality.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblImageQuality.Location = new System.Drawing.Point(294, 16);
+            this.lblImageQuality.Location = new System.Drawing.Point(392, 20);
+            this.lblImageQuality.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lblImageQuality.Name = "lblImageQuality";
             this.lblImageQuality.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.lblImageQuality.Size = new System.Drawing.Size(204, 120);
+            this.lblImageQuality.Size = new System.Drawing.Size(271, 147);
             this.lblImageQuality.TabIndex = 3;
             this.lblImageQuality.Text = "";
             // 
             // lblMatchResults
             // 
             this.lblMatchResults.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblMatchResults.Location = new System.Drawing.Point(294, 15);
+            this.lblMatchResults.Location = new System.Drawing.Point(392, 18);
+            this.lblMatchResults.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lblMatchResults.Name = "lblMatchResults";
             this.lblMatchResults.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.lblMatchResults.Size = new System.Drawing.Size(204, 120);
+            this.lblMatchResults.Size = new System.Drawing.Size(271, 147);
             this.lblMatchResults.TabIndex = 5;
             this.lblMatchResults.Text = "";
             // 
             // picIsoRight
             // 
             this.picIsoRight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picIsoRight.Location = new System.Drawing.Point(16, 19);
+            this.picIsoRight.Location = new System.Drawing.Point(21, 23);
+            this.picIsoRight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picIsoRight.Name = "picIsoRight";
-            this.picIsoRight.Size = new System.Drawing.Size(140, 105);
+            this.picIsoRight.Size = new System.Drawing.Size(186, 129);
             this.picIsoRight.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picIsoRight.TabIndex = 3;
             this.picIsoRight.TabStop = false;
@@ -241,18 +252,20 @@ namespace CSharpSample
             // picIsoLeft
             // 
             this.picIsoLeft.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picIsoLeft.Location = new System.Drawing.Point(16, 179);
+            this.picIsoLeft.Location = new System.Drawing.Point(21, 220);
+            this.picIsoLeft.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picIsoLeft.Name = "picIsoLeft";
-            this.picIsoLeft.Size = new System.Drawing.Size(140, 105);
+            this.picIsoLeft.Size = new System.Drawing.Size(186, 129);
             this.picIsoLeft.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picIsoLeft.TabIndex = 3;
             this.picIsoLeft.TabStop = false;
             // 
             // btnIsoLeftEye
             // 
-            this.btnIsoLeftEye.Location = new System.Drawing.Point(81, 290);
+            this.btnIsoLeftEye.Location = new System.Drawing.Point(108, 357);
+            this.btnIsoLeftEye.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIsoLeftEye.Name = "btnIsoLeftEye";
-            this.btnIsoLeftEye.Size = new System.Drawing.Size(75, 23);
+            this.btnIsoLeftEye.Size = new System.Drawing.Size(100, 28);
             this.btnIsoLeftEye.TabIndex = 4;
             this.btnIsoLeftEye.Text = "Left";
             this.btnIsoLeftEye.UseVisualStyleBackColor = true;
@@ -260,9 +273,10 @@ namespace CSharpSample
             // 
             // btnIsoRightEye
             // 
-            this.btnIsoRightEye.Location = new System.Drawing.Point(81, 130);
+            this.btnIsoRightEye.Location = new System.Drawing.Point(108, 160);
+            this.btnIsoRightEye.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIsoRightEye.Name = "btnIsoRightEye";
-            this.btnIsoRightEye.Size = new System.Drawing.Size(75, 23);
+            this.btnIsoRightEye.Size = new System.Drawing.Size(100, 28);
             this.btnIsoRightEye.TabIndex = 4;
             this.btnIsoRightEye.Text = "Right";
             this.btnIsoRightEye.UseVisualStyleBackColor = true;
@@ -271,9 +285,10 @@ namespace CSharpSample
             // btnCreateIso
             // 
             this.btnCreateIso.Enabled = false;
-            this.btnCreateIso.Location = new System.Drawing.Point(211, 213);
+            this.btnCreateIso.Location = new System.Drawing.Point(281, 262);
+            this.btnCreateIso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCreateIso.Name = "btnCreateIso";
-            this.btnCreateIso.Size = new System.Drawing.Size(157, 23);
+            this.btnCreateIso.Size = new System.Drawing.Size(209, 28);
             this.btnCreateIso.TabIndex = 4;
             this.btnCreateIso.Text = "Create ISO Iris Record";
             this.btnCreateIso.UseVisualStyleBackColor = true;
@@ -281,9 +296,10 @@ namespace CSharpSample
             // 
             // btnReadIso
             // 
-            this.btnReadIso.Location = new System.Drawing.Point(211, 250);
+            this.btnReadIso.Location = new System.Drawing.Point(281, 308);
+            this.btnReadIso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReadIso.Name = "btnReadIso";
-            this.btnReadIso.Size = new System.Drawing.Size(157, 23);
+            this.btnReadIso.Size = new System.Drawing.Size(209, 28);
             this.btnReadIso.TabIndex = 4;
             this.btnReadIso.Text = "Read ISO Iris Record";
             this.btnReadIso.UseVisualStyleBackColor = true;
@@ -297,18 +313,21 @@ namespace CSharpSample
             this.grpBoxImaging.Controls.Add(this.lblImageQuality);
             this.grpBoxImaging.Controls.Add(this.picCropped);
             this.grpBoxImaging.Controls.Add(this.picOriginal);
-            this.grpBoxImaging.Location = new System.Drawing.Point(10, 8);
+            this.grpBoxImaging.Location = new System.Drawing.Point(13, 10);
+            this.grpBoxImaging.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpBoxImaging.Name = "grpBoxImaging";
-            this.grpBoxImaging.Size = new System.Drawing.Size(620, 155);
+            this.grpBoxImaging.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpBoxImaging.Size = new System.Drawing.Size(827, 191);
             this.grpBoxImaging.TabIndex = 5;
             this.grpBoxImaging.TabStop = false;
             this.grpBoxImaging.Text = "Imaging";
             // 
             // btnLoadRAWCompress
             // 
-            this.btnLoadRAWCompress.Location = new System.Drawing.Point(509, 88);
+            this.btnLoadRAWCompress.Location = new System.Drawing.Point(679, 108);
+            this.btnLoadRAWCompress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLoadRAWCompress.Name = "btnLoadRAWCompress";
-            this.btnLoadRAWCompress.Size = new System.Drawing.Size(101, 23);
+            this.btnLoadRAWCompress.Size = new System.Drawing.Size(135, 28);
             this.btnLoadRAWCompress.TabIndex = 3;
             this.btnLoadRAWCompress.Text = "Compress to JP2K";
             this.btnLoadRAWCompress.UseVisualStyleBackColor = true;
@@ -316,9 +335,10 @@ namespace CSharpSample
             // 
             // btnLoadClear
             // 
-            this.btnLoadClear.Location = new System.Drawing.Point(509, 16);
+            this.btnLoadClear.Location = new System.Drawing.Point(679, 20);
+            this.btnLoadClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLoadClear.Name = "btnLoadClear";
-            this.btnLoadClear.Size = new System.Drawing.Size(101, 23);
+            this.btnLoadClear.Size = new System.Drawing.Size(135, 28);
             this.btnLoadClear.TabIndex = 0;
             this.btnLoadClear.Text = "Clear";
             this.btnLoadClear.UseVisualStyleBackColor = true;
@@ -338,9 +358,11 @@ namespace CSharpSample
             this.grpBoxMatching.Controls.Add(this.lblMatchResults);
             this.grpBoxMatching.Controls.Add(this.btnLoadProbe);
             this.grpBoxMatching.Controls.Add(this.btnLoadGallery);
-            this.grpBoxMatching.Location = new System.Drawing.Point(10, 168);
+            this.grpBoxMatching.Location = new System.Drawing.Point(13, 207);
+            this.grpBoxMatching.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpBoxMatching.Name = "grpBoxMatching";
-            this.grpBoxMatching.Size = new System.Drawing.Size(620, 166);
+            this.grpBoxMatching.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpBoxMatching.Size = new System.Drawing.Size(827, 204);
             this.grpBoxMatching.TabIndex = 6;
             this.grpBoxMatching.TabStop = false;
             this.grpBoxMatching.Text = "Matching";
@@ -348,9 +370,10 @@ namespace CSharpSample
             // btnVerifyImage
             // 
             this.btnVerifyImage.Enabled = false;
-            this.btnVerifyImage.Location = new System.Drawing.Point(509, 114);
+            this.btnVerifyImage.Location = new System.Drawing.Point(679, 140);
+            this.btnVerifyImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVerifyImage.Name = "btnVerifyImage";
-            this.btnVerifyImage.Size = new System.Drawing.Size(101, 23);
+            this.btnVerifyImage.Size = new System.Drawing.Size(135, 28);
             this.btnVerifyImage.TabIndex = 10;
             this.btnVerifyImage.Text = "Verify By Image";
             this.btnVerifyImage.UseVisualStyleBackColor = true;
@@ -359,9 +382,10 @@ namespace CSharpSample
             // btnMatchImage
             // 
             this.btnMatchImage.Enabled = false;
-            this.btnMatchImage.Location = new System.Drawing.Point(509, 38);
+            this.btnMatchImage.Location = new System.Drawing.Point(679, 47);
+            this.btnMatchImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMatchImage.Name = "btnMatchImage";
-            this.btnMatchImage.Size = new System.Drawing.Size(101, 23);
+            this.btnMatchImage.Size = new System.Drawing.Size(135, 28);
             this.btnMatchImage.TabIndex = 6;
             this.btnMatchImage.Text = "Match By Image";
             this.btnMatchImage.UseVisualStyleBackColor = true;
@@ -370,123 +394,135 @@ namespace CSharpSample
             // btnVerify
             // 
             this.btnVerify.Enabled = false;
-			this.btnVerify.Location = new System.Drawing.Point(509, 89);
+            this.btnVerify.Location = new System.Drawing.Point(679, 110);
+            this.btnVerify.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVerify.Name = "btnVerify";
-			this.btnVerify.Size = new System.Drawing.Size(101, 23);
-			this.btnVerify.TabIndex = 9;
-			this.btnVerify.Text = "Verify By IrisCode";
+            this.btnVerify.Size = new System.Drawing.Size(135, 28);
+            this.btnVerify.TabIndex = 9;
+            this.btnVerify.Text = "Verify By IrisCode";
             this.btnVerify.UseVisualStyleBackColor = true;
             this.btnVerify.Click += new System.EventHandler(this.btnVerify_Click);
             // 
-			// btnBestMatchable
-			// 
-			this.btnBestMatchable.Enabled = false;
-			this.btnBestMatchable.Location = new System.Drawing.Point(509, 139);
-			this.btnBestMatchable.Name = "btnBestMatchable";
-			this.btnBestMatchable.Size = new System.Drawing.Size(101, 23);
-			this.btnBestMatchable.TabIndex = 8;
-			this.btnBestMatchable.Text = "BestMatchable";
-			this.btnBestMatchable.UseVisualStyleBackColor = true;
-			this.btnBestMatchable.Click += new System.EventHandler(this.btnBestMatchable_Click);
-			// 
-			// btnBestQuality
-			// 
-			this.btnBestQuality.Enabled = false;
-			this.btnBestQuality.Location = new System.Drawing.Point(397, 139);
-			this.btnBestQuality.Name = "btnBestQuality";
-			this.btnBestQuality.Size = new System.Drawing.Size(101, 23);
-			this.btnBestQuality.TabIndex = 7;
-			this.btnBestQuality.Text = "BestQuality";
-			this.btnBestQuality.UseVisualStyleBackColor = true;
-			this.btnBestQuality.Click += new System.EventHandler(this.btnBestQuality_Click);
-			// 
-			// btnMatchClear
-			// 
-			this.btnMatchClear.Location = new System.Drawing.Point(509, 13);
-			this.btnMatchClear.Name = "btnMatchClear";
-			this.btnMatchClear.Size = new System.Drawing.Size(101, 23);
-			this.btnMatchClear.TabIndex = 2;
-			this.btnMatchClear.Text = "Clear";
-			this.btnMatchClear.UseVisualStyleBackColor = true;
-			this.btnMatchClear.Click += new System.EventHandler(this.btnMatchClear_Click);
-			// 
-			// grpBoxISO2005
-			// 
-			this.grpBoxISO2005.Controls.Add(this.btnIsoClear);
-			this.grpBoxISO2005.Controls.Add(this.lblIsoRecordInfo);
-			this.grpBoxISO2005.Controls.Add(this.cboIsoDeviceId);
-			this.grpBoxISO2005.Controls.Add(this.txtIsoDeviceUID);
-			this.grpBoxISO2005.Controls.Add(this.lblISO2005UID);
-			this.grpBoxISO2005.Controls.Add(this.lblISO2005DID);
-			this.grpBoxISO2005.Controls.Add(this.picIsoLeft);
-			this.grpBoxISO2005.Controls.Add(this.btnReadIso);
-			this.grpBoxISO2005.Controls.Add(this.btnCreateIso);
-			this.grpBoxISO2005.Controls.Add(this.picIsoRight);
-			this.grpBoxISO2005.Controls.Add(this.btnIsoLeftEye);
-			this.grpBoxISO2005.Controls.Add(this.btnIsoRightEye);
-			this.grpBoxISO2005.Location = new System.Drawing.Point(10, 8);
-			this.grpBoxISO2005.Name = "grpBoxISO2005";
-			this.grpBoxISO2005.Size = new System.Drawing.Size(620, 326);
-			this.grpBoxISO2005.TabIndex = 7;
-			this.grpBoxISO2005.TabStop = false;
-			this.grpBoxISO2005.Text = "ISO 2005";
-			// 
-			// btnIsoClear
-			// 
-			this.btnIsoClear.Location = new System.Drawing.Point(211, 290);
-			this.btnIsoClear.Name = "btnIsoClear";
-			this.btnIsoClear.Size = new System.Drawing.Size(157, 23);
-			this.btnIsoClear.TabIndex = 24;
-			this.btnIsoClear.Text = "Clear";
-			this.btnIsoClear.UseVisualStyleBackColor = true;
-			this.btnIsoClear.Click += new System.EventHandler(this.btnIsoClear_Click);
-			// 
-			// lblIsoRecordInfo
-			// 
-			this.lblIsoRecordInfo.BackColor = System.Drawing.SystemColors.ButtonFace;
-			this.lblIsoRecordInfo.Location = new System.Drawing.Point(418, 19);
-			this.lblIsoRecordInfo.Name = "lblIsoRecordInfo";
-			this.lblIsoRecordInfo.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-			this.lblIsoRecordInfo.Size = new System.Drawing.Size(182, 294);
-			this.lblIsoRecordInfo.TabIndex = 27;
-			this.lblIsoRecordInfo.Text = "";
-			// 
-			// cboIsoDeviceId
-			// 
-			this.cboIsoDeviceId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cboIsoDeviceId.FormattingEnabled = true;
-			this.cboIsoDeviceId.Items.AddRange(new object[] {
+            // btnBestMatchable
+            // 
+            this.btnBestMatchable.Enabled = false;
+            this.btnBestMatchable.Location = new System.Drawing.Point(679, 171);
+            this.btnBestMatchable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBestMatchable.Name = "btnBestMatchable";
+            this.btnBestMatchable.Size = new System.Drawing.Size(135, 28);
+            this.btnBestMatchable.TabIndex = 8;
+            this.btnBestMatchable.Text = "BestMatchable";
+            this.btnBestMatchable.UseVisualStyleBackColor = true;
+            this.btnBestMatchable.Click += new System.EventHandler(this.btnBestMatchable_Click);
+            // 
+            // btnBestQuality
+            // 
+            this.btnBestQuality.Enabled = false;
+            this.btnBestQuality.Location = new System.Drawing.Point(529, 171);
+            this.btnBestQuality.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBestQuality.Name = "btnBestQuality";
+            this.btnBestQuality.Size = new System.Drawing.Size(135, 28);
+            this.btnBestQuality.TabIndex = 7;
+            this.btnBestQuality.Text = "BestQuality";
+            this.btnBestQuality.UseVisualStyleBackColor = true;
+            this.btnBestQuality.Click += new System.EventHandler(this.btnBestQuality_Click);
+            // 
+            // btnMatchClear
+            // 
+            this.btnMatchClear.Location = new System.Drawing.Point(679, 16);
+            this.btnMatchClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMatchClear.Name = "btnMatchClear";
+            this.btnMatchClear.Size = new System.Drawing.Size(135, 28);
+            this.btnMatchClear.TabIndex = 2;
+            this.btnMatchClear.Text = "Clear";
+            this.btnMatchClear.UseVisualStyleBackColor = true;
+            this.btnMatchClear.Click += new System.EventHandler(this.btnMatchClear_Click);
+            // 
+            // grpBoxISO2005
+            // 
+            this.grpBoxISO2005.Controls.Add(this.btnIsoClear);
+            this.grpBoxISO2005.Controls.Add(this.lblIsoRecordInfo);
+            this.grpBoxISO2005.Controls.Add(this.cboIsoDeviceId);
+            this.grpBoxISO2005.Controls.Add(this.txtIsoDeviceUID);
+            this.grpBoxISO2005.Controls.Add(this.lblISO2005UID);
+            this.grpBoxISO2005.Controls.Add(this.lblISO2005DID);
+            this.grpBoxISO2005.Controls.Add(this.picIsoLeft);
+            this.grpBoxISO2005.Controls.Add(this.btnReadIso);
+            this.grpBoxISO2005.Controls.Add(this.btnCreateIso);
+            this.grpBoxISO2005.Controls.Add(this.picIsoRight);
+            this.grpBoxISO2005.Controls.Add(this.btnIsoLeftEye);
+            this.grpBoxISO2005.Controls.Add(this.btnIsoRightEye);
+            this.grpBoxISO2005.Location = new System.Drawing.Point(13, 10);
+            this.grpBoxISO2005.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpBoxISO2005.Name = "grpBoxISO2005";
+            this.grpBoxISO2005.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpBoxISO2005.Size = new System.Drawing.Size(827, 401);
+            this.grpBoxISO2005.TabIndex = 7;
+            this.grpBoxISO2005.TabStop = false;
+            this.grpBoxISO2005.Text = "ISO 2005";
+            // 
+            // btnIsoClear
+            // 
+            this.btnIsoClear.Location = new System.Drawing.Point(281, 357);
+            this.btnIsoClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnIsoClear.Name = "btnIsoClear";
+            this.btnIsoClear.Size = new System.Drawing.Size(209, 28);
+            this.btnIsoClear.TabIndex = 24;
+            this.btnIsoClear.Text = "Clear";
+            this.btnIsoClear.UseVisualStyleBackColor = true;
+            this.btnIsoClear.Click += new System.EventHandler(this.btnIsoClear_Click);
+            // 
+            // lblIsoRecordInfo
+            // 
+            this.lblIsoRecordInfo.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblIsoRecordInfo.Location = new System.Drawing.Point(557, 23);
+            this.lblIsoRecordInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblIsoRecordInfo.Name = "lblIsoRecordInfo";
+            this.lblIsoRecordInfo.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.lblIsoRecordInfo.Size = new System.Drawing.Size(241, 361);
+            this.lblIsoRecordInfo.TabIndex = 27;
+            this.lblIsoRecordInfo.Text = "";
+            // 
+            // cboIsoDeviceId
+            // 
+            this.cboIsoDeviceId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboIsoDeviceId.FormattingEnabled = true;
+            this.cboIsoDeviceId.Items.AddRange(new object[] {
             "DEV_ID_ICAM7000",
             "DEV_ID_TD100"});
-            this.cboIsoDeviceId.Location = new System.Drawing.Point(242, 21);
+            this.cboIsoDeviceId.Location = new System.Drawing.Point(323, 26);
+            this.cboIsoDeviceId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboIsoDeviceId.Name = "cboIsoDeviceId";
-            this.cboIsoDeviceId.Size = new System.Drawing.Size(157, 21);
+            this.cboIsoDeviceId.Size = new System.Drawing.Size(208, 24);
             this.cboIsoDeviceId.TabIndex = 21;
             // 
             // txtIsoDeviceUID
             // 
-            this.txtIsoDeviceUID.Location = new System.Drawing.Point(242, 48);
+            this.txtIsoDeviceUID.Location = new System.Drawing.Point(323, 59);
+            this.txtIsoDeviceUID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtIsoDeviceUID.MaxLength = 16;
             this.txtIsoDeviceUID.Name = "txtIsoDeviceUID";
-            this.txtIsoDeviceUID.Size = new System.Drawing.Size(157, 20);
+            this.txtIsoDeviceUID.Size = new System.Drawing.Size(208, 22);
             this.txtIsoDeviceUID.TabIndex = 15;
             this.txtIsoDeviceUID.Text = "D123456789012345";
             // 
             // lblISO2005UID
             // 
             this.lblISO2005UID.AutoSize = true;
-            this.lblISO2005UID.Location = new System.Drawing.Point(169, 51);
+            this.lblISO2005UID.Location = new System.Drawing.Point(225, 63);
+            this.lblISO2005UID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblISO2005UID.Name = "lblISO2005UID";
-            this.lblISO2005UID.Size = new System.Drawing.Size(63, 13);
+            this.lblISO2005UID.Size = new System.Drawing.Size(76, 16);
             this.lblISO2005UID.TabIndex = 8;
             this.lblISO2005UID.Text = "Device UID";
             // 
             // lblISO2005DID
             // 
             this.lblISO2005DID.AutoSize = true;
-            this.lblISO2005DID.Location = new System.Drawing.Point(177, 25);
+            this.lblISO2005DID.Location = new System.Drawing.Point(236, 31);
+            this.lblISO2005DID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblISO2005DID.Name = "lblISO2005DID";
-            this.lblISO2005DID.Size = new System.Drawing.Size(55, 13);
+            this.lblISO2005DID.Size = new System.Drawing.Size(66, 16);
             this.lblISO2005DID.TabIndex = 6;
             this.lblISO2005DID.Text = "Device ID";
             // 
@@ -496,10 +532,11 @@ namespace CSharpSample
             this.tabCtlSample.Controls.Add(this.tabISO2005);
             this.tabCtlSample.Controls.Add(this.tabISO2011);
             this.tabCtlSample.Controls.Add(this.tabPIV);
-            this.tabCtlSample.Location = new System.Drawing.Point(9, 11);
+            this.tabCtlSample.Location = new System.Drawing.Point(12, 14);
+            this.tabCtlSample.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabCtlSample.Name = "tabCtlSample";
             this.tabCtlSample.SelectedIndex = 0;
-            this.tabCtlSample.Size = new System.Drawing.Size(651, 520);
+            this.tabCtlSample.Size = new System.Drawing.Size(868, 640);
             this.tabCtlSample.TabIndex = 8;
             // 
             // tabImaging
@@ -508,10 +545,11 @@ namespace CSharpSample
             this.tabImaging.Controls.Add(this.grpBoxTemplateCreation);
             this.tabImaging.Controls.Add(this.grpBoxImaging);
             this.tabImaging.Controls.Add(this.grpBoxMatching);
-            this.tabImaging.Location = new System.Drawing.Point(4, 22);
+            this.tabImaging.Location = new System.Drawing.Point(4, 25);
+            this.tabImaging.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabImaging.Name = "tabImaging";
-            this.tabImaging.Padding = new System.Windows.Forms.Padding(3);
-            this.tabImaging.Size = new System.Drawing.Size(643, 494);
+            this.tabImaging.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabImaging.Size = new System.Drawing.Size(860, 611);
             this.tabImaging.TabIndex = 0;
             this.tabImaging.Text = "Imaging";
             // 
@@ -523,9 +561,11 @@ namespace CSharpSample
             this.grpBoxTemplateCreation.Controls.Add(this.lblTemplateImageResult);
             this.grpBoxTemplateCreation.Controls.Add(this.picProcessedImage);
             this.grpBoxTemplateCreation.Controls.Add(this.picIrisTemplate);
-            this.grpBoxTemplateCreation.Location = new System.Drawing.Point(10, 340);
+            this.grpBoxTemplateCreation.Location = new System.Drawing.Point(13, 418);
+            this.grpBoxTemplateCreation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpBoxTemplateCreation.Name = "grpBoxTemplateCreation";
-            this.grpBoxTemplateCreation.Size = new System.Drawing.Size(620, 148);
+            this.grpBoxTemplateCreation.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpBoxTemplateCreation.Size = new System.Drawing.Size(827, 182);
             this.grpBoxTemplateCreation.TabIndex = 7;
             this.grpBoxTemplateCreation.TabStop = false;
             this.grpBoxTemplateCreation.Text = "Template Creation";
@@ -533,9 +573,10 @@ namespace CSharpSample
             // btnSaveProcessedImage
             // 
             this.btnSaveProcessedImage.Enabled = false;
-            this.btnSaveProcessedImage.Location = new System.Drawing.Point(509, 49);
+            this.btnSaveProcessedImage.Location = new System.Drawing.Point(679, 60);
+            this.btnSaveProcessedImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSaveProcessedImage.Name = "btnSaveProcessedImage";
-            this.btnSaveProcessedImage.Size = new System.Drawing.Size(101, 23);
+            this.btnSaveProcessedImage.Size = new System.Drawing.Size(135, 28);
             this.btnSaveProcessedImage.TabIndex = 9;
             this.btnSaveProcessedImage.Text = "Save Image";
             this.btnSaveProcessedImage.UseVisualStyleBackColor = true;
@@ -543,9 +584,10 @@ namespace CSharpSample
             // 
             // btnClearTemplateCreation
             // 
-            this.btnClearTemplateCreation.Location = new System.Drawing.Point(509, 116);
+            this.btnClearTemplateCreation.Location = new System.Drawing.Point(679, 143);
+            this.btnClearTemplateCreation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClearTemplateCreation.Name = "btnClearTemplateCreation";
-            this.btnClearTemplateCreation.Size = new System.Drawing.Size(101, 23);
+            this.btnClearTemplateCreation.Size = new System.Drawing.Size(135, 28);
             this.btnClearTemplateCreation.TabIndex = 8;
             this.btnClearTemplateCreation.Text = "Clear";
             this.btnClearTemplateCreation.UseVisualStyleBackColor = true;
@@ -553,9 +595,10 @@ namespace CSharpSample
             // 
             // btnLoadImageTemplateCreation
             // 
-            this.btnLoadImageTemplateCreation.Location = new System.Drawing.Point(509, 19);
+            this.btnLoadImageTemplateCreation.Location = new System.Drawing.Point(679, 23);
+            this.btnLoadImageTemplateCreation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLoadImageTemplateCreation.Name = "btnLoadImageTemplateCreation";
-            this.btnLoadImageTemplateCreation.Size = new System.Drawing.Size(101, 23);
+            this.btnLoadImageTemplateCreation.Size = new System.Drawing.Size(135, 28);
             this.btnLoadImageTemplateCreation.TabIndex = 7;
             this.btnLoadImageTemplateCreation.Text = "Load Image";
             this.btnLoadImageTemplateCreation.UseVisualStyleBackColor = true;
@@ -564,19 +607,21 @@ namespace CSharpSample
             // lblTemplateImageResult
             // 
             this.lblTemplateImageResult.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblTemplateImageResult.Location = new System.Drawing.Point(298, 15);
+            this.lblTemplateImageResult.Location = new System.Drawing.Point(397, 18);
+            this.lblTemplateImageResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lblTemplateImageResult.Name = "lblTemplateImageResult";
             this.lblTemplateImageResult.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.lblTemplateImageResult.Size = new System.Drawing.Size(204, 124);
+            this.lblTemplateImageResult.Size = new System.Drawing.Size(271, 152);
             this.lblTemplateImageResult.TabIndex = 6;
             this.lblTemplateImageResult.Text = "";
             // 
             // picProcessedImage
             // 
             this.picProcessedImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picProcessedImage.Location = new System.Drawing.Point(152, 15);
+            this.picProcessedImage.Location = new System.Drawing.Point(203, 18);
+            this.picProcessedImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picProcessedImage.Name = "picProcessedImage";
-            this.picProcessedImage.Size = new System.Drawing.Size(140, 120);
+            this.picProcessedImage.Size = new System.Drawing.Size(186, 147);
             this.picProcessedImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picProcessedImage.TabIndex = 1;
             this.picProcessedImage.TabStop = false;
@@ -584,9 +629,10 @@ namespace CSharpSample
             // picIrisTemplate
             // 
             this.picIrisTemplate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picIrisTemplate.Location = new System.Drawing.Point(6, 15);
+            this.picIrisTemplate.Location = new System.Drawing.Point(8, 18);
+            this.picIrisTemplate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picIrisTemplate.Name = "picIrisTemplate";
-            this.picIrisTemplate.Size = new System.Drawing.Size(140, 120);
+            this.picIrisTemplate.Size = new System.Drawing.Size(186, 147);
             this.picIrisTemplate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picIrisTemplate.TabIndex = 0;
             this.picIrisTemplate.TabStop = false;
@@ -595,10 +641,11 @@ namespace CSharpSample
             // 
             this.tabISO2005.BackColor = System.Drawing.Color.Transparent;
             this.tabISO2005.Controls.Add(this.grpBoxISO2005);
-            this.tabISO2005.Location = new System.Drawing.Point(4, 22);
+            this.tabISO2005.Location = new System.Drawing.Point(4, 25);
+            this.tabISO2005.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabISO2005.Name = "tabISO2005";
-            this.tabISO2005.Padding = new System.Windows.Forms.Padding(3);
-            this.tabISO2005.Size = new System.Drawing.Size(643, 494);
+            this.tabISO2005.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabISO2005.Size = new System.Drawing.Size(860, 611);
             this.tabISO2005.TabIndex = 1;
             this.tabISO2005.Text = "ISO 2005";
             // 
@@ -606,10 +653,11 @@ namespace CSharpSample
             // 
             this.tabISO2011.BackColor = System.Drawing.Color.Transparent;
             this.tabISO2011.Controls.Add(this.grpBoxISO2011);
-            this.tabISO2011.Location = new System.Drawing.Point(4, 22);
+            this.tabISO2011.Location = new System.Drawing.Point(4, 25);
+            this.tabISO2011.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabISO2011.Name = "tabISO2011";
-            this.tabISO2011.Padding = new System.Windows.Forms.Padding(3);
-            this.tabISO2011.Size = new System.Drawing.Size(643, 494);
+            this.tabISO2011.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabISO2011.Size = new System.Drawing.Size(860, 611);
             this.tabISO2011.TabIndex = 2;
             this.tabISO2011.Text = "ISO 2011";
             // 
@@ -627,9 +675,11 @@ namespace CSharpSample
             this.grpBoxISO2011.Controls.Add(this.picIso2011Right);
             this.grpBoxISO2011.Controls.Add(this.btnLeft2011);
             this.grpBoxISO2011.Controls.Add(this.btnRight2011);
-            this.grpBoxISO2011.Location = new System.Drawing.Point(10, 8);
+            this.grpBoxISO2011.Location = new System.Drawing.Point(13, 10);
+            this.grpBoxISO2011.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpBoxISO2011.Name = "grpBoxISO2011";
-            this.grpBoxISO2011.Size = new System.Drawing.Size(620, 326);
+            this.grpBoxISO2011.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpBoxISO2011.Size = new System.Drawing.Size(827, 401);
             this.grpBoxISO2011.TabIndex = 8;
             this.grpBoxISO2011.TabStop = false;
             this.grpBoxISO2011.Text = "ISO 2011";
@@ -637,18 +687,20 @@ namespace CSharpSample
             // lblIso2011RecordInfo
             // 
             this.lblIso2011RecordInfo.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblIso2011RecordInfo.Location = new System.Drawing.Point(418, 19);
+            this.lblIso2011RecordInfo.Location = new System.Drawing.Point(557, 23);
+            this.lblIso2011RecordInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lblIso2011RecordInfo.Name = "lblIso2011RecordInfo";
             this.lblIso2011RecordInfo.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.lblIso2011RecordInfo.Size = new System.Drawing.Size(182, 294);
+            this.lblIso2011RecordInfo.Size = new System.Drawing.Size(241, 361);
             this.lblIso2011RecordInfo.TabIndex = 26;
             this.lblIso2011RecordInfo.Text = "";
             // 
             // btnISO2011Clear
             // 
-            this.btnISO2011Clear.Location = new System.Drawing.Point(211, 290);
+            this.btnISO2011Clear.Location = new System.Drawing.Point(281, 357);
+            this.btnISO2011Clear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnISO2011Clear.Name = "btnISO2011Clear";
-            this.btnISO2011Clear.Size = new System.Drawing.Size(157, 23);
+            this.btnISO2011Clear.Size = new System.Drawing.Size(209, 28);
             this.btnISO2011Clear.TabIndex = 24;
             this.btnISO2011Clear.Text = "Clear";
             this.btnISO2011Clear.UseVisualStyleBackColor = true;
@@ -661,53 +713,59 @@ namespace CSharpSample
             this.cboIsoDeviceId2011.Items.AddRange(new object[] {
             "DEV_ID_ICAM7000",
             "DEV_ID_TD100"});
-            this.cboIsoDeviceId2011.Location = new System.Drawing.Point(242, 21);
+            this.cboIsoDeviceId2011.Location = new System.Drawing.Point(323, 26);
+            this.cboIsoDeviceId2011.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboIsoDeviceId2011.Name = "cboIsoDeviceId2011";
-            this.cboIsoDeviceId2011.Size = new System.Drawing.Size(157, 21);
+            this.cboIsoDeviceId2011.Size = new System.Drawing.Size(208, 24);
             this.cboIsoDeviceId2011.TabIndex = 21;
             // 
             // txtISO2011DeviceUID
             // 
-            this.txtISO2011DeviceUID.Location = new System.Drawing.Point(242, 48);
+            this.txtISO2011DeviceUID.Location = new System.Drawing.Point(323, 59);
+            this.txtISO2011DeviceUID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtISO2011DeviceUID.MaxLength = 16;
             this.txtISO2011DeviceUID.Name = "txtISO2011DeviceUID";
-            this.txtISO2011DeviceUID.Size = new System.Drawing.Size(157, 20);
+            this.txtISO2011DeviceUID.Size = new System.Drawing.Size(208, 22);
             this.txtISO2011DeviceUID.TabIndex = 15;
             this.txtISO2011DeviceUID.Text = "D123456789012345";
             // 
             // lblISO2011UID
             // 
             this.lblISO2011UID.AutoSize = true;
-            this.lblISO2011UID.Location = new System.Drawing.Point(169, 51);
+            this.lblISO2011UID.Location = new System.Drawing.Point(225, 63);
+            this.lblISO2011UID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblISO2011UID.Name = "lblISO2011UID";
-            this.lblISO2011UID.Size = new System.Drawing.Size(63, 13);
+            this.lblISO2011UID.Size = new System.Drawing.Size(76, 16);
             this.lblISO2011UID.TabIndex = 8;
             this.lblISO2011UID.Text = "Device UID";
             // 
             // lblISO2011DID
             // 
             this.lblISO2011DID.AutoSize = true;
-            this.lblISO2011DID.Location = new System.Drawing.Point(177, 25);
+            this.lblISO2011DID.Location = new System.Drawing.Point(236, 31);
+            this.lblISO2011DID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblISO2011DID.Name = "lblISO2011DID";
-            this.lblISO2011DID.Size = new System.Drawing.Size(55, 13);
+            this.lblISO2011DID.Size = new System.Drawing.Size(66, 16);
             this.lblISO2011DID.TabIndex = 6;
             this.lblISO2011DID.Text = "Device ID";
             // 
             // picIso2011Left
             // 
             this.picIso2011Left.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picIso2011Left.Location = new System.Drawing.Point(16, 179);
+            this.picIso2011Left.Location = new System.Drawing.Point(21, 220);
+            this.picIso2011Left.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picIso2011Left.Name = "picIso2011Left";
-            this.picIso2011Left.Size = new System.Drawing.Size(140, 105);
+            this.picIso2011Left.Size = new System.Drawing.Size(186, 129);
             this.picIso2011Left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picIso2011Left.TabIndex = 3;
             this.picIso2011Left.TabStop = false;
             // 
             // btnReadISO2011
             // 
-            this.btnReadISO2011.Location = new System.Drawing.Point(211, 250);
+            this.btnReadISO2011.Location = new System.Drawing.Point(281, 308);
+            this.btnReadISO2011.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReadISO2011.Name = "btnReadISO2011";
-            this.btnReadISO2011.Size = new System.Drawing.Size(157, 23);
+            this.btnReadISO2011.Size = new System.Drawing.Size(209, 28);
             this.btnReadISO2011.TabIndex = 4;
             this.btnReadISO2011.Text = "Read ISO for first image";
             this.btnReadISO2011.UseVisualStyleBackColor = true;
@@ -716,9 +774,10 @@ namespace CSharpSample
             // btnCreateISO2011
             // 
             this.btnCreateISO2011.Enabled = false;
-            this.btnCreateISO2011.Location = new System.Drawing.Point(211, 213);
+            this.btnCreateISO2011.Location = new System.Drawing.Point(281, 262);
+            this.btnCreateISO2011.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCreateISO2011.Name = "btnCreateISO2011";
-            this.btnCreateISO2011.Size = new System.Drawing.Size(157, 23);
+            this.btnCreateISO2011.Size = new System.Drawing.Size(209, 28);
             this.btnCreateISO2011.TabIndex = 4;
             this.btnCreateISO2011.Text = "Create ISO Iris Record";
             this.btnCreateISO2011.UseVisualStyleBackColor = true;
@@ -727,18 +786,20 @@ namespace CSharpSample
             // picIso2011Right
             // 
             this.picIso2011Right.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picIso2011Right.Location = new System.Drawing.Point(16, 19);
+            this.picIso2011Right.Location = new System.Drawing.Point(21, 23);
+            this.picIso2011Right.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picIso2011Right.Name = "picIso2011Right";
-            this.picIso2011Right.Size = new System.Drawing.Size(140, 105);
+            this.picIso2011Right.Size = new System.Drawing.Size(186, 129);
             this.picIso2011Right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picIso2011Right.TabIndex = 3;
             this.picIso2011Right.TabStop = false;
             // 
             // btnLeft2011
             // 
-            this.btnLeft2011.Location = new System.Drawing.Point(81, 290);
+            this.btnLeft2011.Location = new System.Drawing.Point(108, 357);
+            this.btnLeft2011.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLeft2011.Name = "btnLeft2011";
-            this.btnLeft2011.Size = new System.Drawing.Size(75, 23);
+            this.btnLeft2011.Size = new System.Drawing.Size(100, 28);
             this.btnLeft2011.TabIndex = 4;
             this.btnLeft2011.Text = "Left";
             this.btnLeft2011.UseVisualStyleBackColor = true;
@@ -746,9 +807,10 @@ namespace CSharpSample
             // 
             // btnRight2011
             // 
-            this.btnRight2011.Location = new System.Drawing.Point(81, 130);
+            this.btnRight2011.Location = new System.Drawing.Point(108, 160);
+            this.btnRight2011.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRight2011.Name = "btnRight2011";
-            this.btnRight2011.Size = new System.Drawing.Size(75, 23);
+            this.btnRight2011.Size = new System.Drawing.Size(100, 28);
             this.btnRight2011.TabIndex = 4;
             this.btnRight2011.Text = "Right";
             this.btnRight2011.UseVisualStyleBackColor = true;
@@ -758,10 +820,11 @@ namespace CSharpSample
             // 
             this.tabPIV.BackColor = System.Drawing.Color.Transparent;
             this.tabPIV.Controls.Add(this.grpBoxPIV);
-            this.tabPIV.Location = new System.Drawing.Point(4, 22);
+            this.tabPIV.Location = new System.Drawing.Point(4, 25);
+            this.tabPIV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPIV.Name = "tabPIV";
-            this.tabPIV.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPIV.Size = new System.Drawing.Size(643, 494);
+            this.tabPIV.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPIV.Size = new System.Drawing.Size(860, 611);
             this.tabPIV.TabIndex = 4;
             this.tabPIV.Text = "PIV Demo";
             // 
@@ -780,18 +843,21 @@ namespace CSharpSample
             this.grpBoxPIV.Controls.Add(this.btnPIVClear);
             this.grpBoxPIV.Controls.Add(this.picPIVCropMask);
             this.grpBoxPIV.Controls.Add(this.picPIVImage);
-            this.grpBoxPIV.Location = new System.Drawing.Point(10, 8);
+            this.grpBoxPIV.Location = new System.Drawing.Point(13, 10);
+            this.grpBoxPIV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpBoxPIV.Name = "grpBoxPIV";
-            this.grpBoxPIV.Size = new System.Drawing.Size(620, 326);
+            this.grpBoxPIV.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpBoxPIV.Size = new System.Drawing.Size(827, 401);
             this.grpBoxPIV.TabIndex = 5;
             this.grpBoxPIV.TabStop = false;
             this.grpBoxPIV.Text = "PIV Demo";
             // 
             // btnPIVMatch
             // 
-            this.btnPIVMatch.Location = new System.Drawing.Point(502, 103);
+            this.btnPIVMatch.Location = new System.Drawing.Point(669, 127);
+            this.btnPIVMatch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPIVMatch.Name = "btnPIVMatch";
-            this.btnPIVMatch.Size = new System.Drawing.Size(106, 23);
+            this.btnPIVMatch.Size = new System.Drawing.Size(141, 28);
             this.btnPIVMatch.TabIndex = 14;
             this.btnPIVMatch.Text = "Match";
             this.btnPIVMatch.UseVisualStyleBackColor = true;
@@ -799,9 +865,10 @@ namespace CSharpSample
             // 
             // btnPIVCompress
             // 
-            this.btnPIVCompress.Location = new System.Drawing.Point(356, 26);
+            this.btnPIVCompress.Location = new System.Drawing.Point(475, 32);
+            this.btnPIVCompress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPIVCompress.Name = "btnPIVCompress";
-            this.btnPIVCompress.Size = new System.Drawing.Size(106, 23);
+            this.btnPIVCompress.Size = new System.Drawing.Size(141, 28);
             this.btnPIVCompress.TabIndex = 3;
             this.btnPIVCompress.Text = "Compress";
             this.btnPIVCompress.UseVisualStyleBackColor = true;
@@ -809,9 +876,10 @@ namespace CSharpSample
             // 
             // btnPIVCropMask
             // 
-            this.btnPIVCropMask.Location = new System.Drawing.Point(193, 27);
+            this.btnPIVCropMask.Location = new System.Drawing.Point(257, 33);
+            this.btnPIVCropMask.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPIVCropMask.Name = "btnPIVCropMask";
-            this.btnPIVCropMask.Size = new System.Drawing.Size(106, 23);
+            this.btnPIVCropMask.Size = new System.Drawing.Size(141, 28);
             this.btnPIVCropMask.TabIndex = 7;
             this.btnPIVCropMask.Text = "Crop and Mask";
             this.btnPIVCropMask.UseVisualStyleBackColor = true;
@@ -819,9 +887,10 @@ namespace CSharpSample
             // 
             // btnPIVLoadImage
             // 
-            this.btnPIVLoadImage.Location = new System.Drawing.Point(30, 27);
+            this.btnPIVLoadImage.Location = new System.Drawing.Point(40, 33);
+            this.btnPIVLoadImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPIVLoadImage.Name = "btnPIVLoadImage";
-            this.btnPIVLoadImage.Size = new System.Drawing.Size(106, 23);
+            this.btnPIVLoadImage.Size = new System.Drawing.Size(141, 28);
             this.btnPIVLoadImage.TabIndex = 1;
             this.btnPIVLoadImage.Text = "Load Image";
             this.btnPIVLoadImage.UseVisualStyleBackColor = true;
@@ -829,36 +898,40 @@ namespace CSharpSample
             // 
             // lblPIVCompress
             // 
-            this.lblPIVCompress.Location = new System.Drawing.Point(339, 35);
+            this.lblPIVCompress.Location = new System.Drawing.Point(452, 43);
+            this.lblPIVCompress.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPIVCompress.Name = "lblPIVCompress";
-            this.lblPIVCompress.Size = new System.Drawing.Size(140, 13);
+            this.lblPIVCompress.Size = new System.Drawing.Size(187, 16);
             this.lblPIVCompress.TabIndex = 13;
             this.lblPIVCompress.Text = "Compressed to JP2K";
             this.lblPIVCompress.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblPIVCropMask
             // 
-            this.lblPIVCropMask.Location = new System.Drawing.Point(176, 35);
+            this.lblPIVCropMask.Location = new System.Drawing.Point(235, 43);
+            this.lblPIVCropMask.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPIVCropMask.Name = "lblPIVCropMask";
-            this.lblPIVCropMask.Size = new System.Drawing.Size(140, 13);
+            this.lblPIVCropMask.Size = new System.Drawing.Size(187, 16);
             this.lblPIVCropMask.TabIndex = 12;
             this.lblPIVCropMask.Text = "Cropped and Masked";
             this.lblPIVCropMask.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblPIVLoadImage
             // 
-            this.lblPIVLoadImage.Location = new System.Drawing.Point(13, 35);
+            this.lblPIVLoadImage.Location = new System.Drawing.Point(17, 43);
+            this.lblPIVLoadImage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPIVLoadImage.Name = "lblPIVLoadImage";
-            this.lblPIVLoadImage.Size = new System.Drawing.Size(140, 13);
+            this.lblPIVLoadImage.Size = new System.Drawing.Size(187, 16);
             this.lblPIVLoadImage.TabIndex = 11;
             this.lblPIVLoadImage.Text = "Load Image";
             this.lblPIVLoadImage.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnPIVSave
             // 
-            this.btnPIVSave.Location = new System.Drawing.Point(502, 55);
+            this.btnPIVSave.Location = new System.Drawing.Point(669, 68);
+            this.btnPIVSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPIVSave.Name = "btnPIVSave";
-            this.btnPIVSave.Size = new System.Drawing.Size(106, 23);
+            this.btnPIVSave.Size = new System.Drawing.Size(141, 28);
             this.btnPIVSave.TabIndex = 9;
             this.btnPIVSave.Text = "Save Image";
             this.btnPIVSave.UseVisualStyleBackColor = true;
@@ -867,9 +940,10 @@ namespace CSharpSample
             // picPIVCompress
             // 
             this.picPIVCompress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picPIVCompress.Location = new System.Drawing.Point(339, 55);
+            this.picPIVCompress.Location = new System.Drawing.Point(452, 68);
+            this.picPIVCompress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picPIVCompress.Name = "picPIVCompress";
-            this.picPIVCompress.Size = new System.Drawing.Size(140, 120);
+            this.picPIVCompress.Size = new System.Drawing.Size(186, 147);
             this.picPIVCompress.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPIVCompress.TabIndex = 8;
             this.picPIVCompress.TabStop = false;
@@ -877,18 +951,20 @@ namespace CSharpSample
             // txtPIVMessage
             // 
             this.txtPIVMessage.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.txtPIVMessage.Location = new System.Drawing.Point(15, 193);
+            this.txtPIVMessage.Location = new System.Drawing.Point(20, 238);
+            this.txtPIVMessage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPIVMessage.Name = "txtPIVMessage";
             this.txtPIVMessage.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.txtPIVMessage.Size = new System.Drawing.Size(590, 115);
+            this.txtPIVMessage.Size = new System.Drawing.Size(785, 141);
             this.txtPIVMessage.TabIndex = 6;
             this.txtPIVMessage.Text = "";
             // 
             // btnPIVClear
             // 
-            this.btnPIVClear.Location = new System.Drawing.Point(502, 152);
+            this.btnPIVClear.Location = new System.Drawing.Point(669, 187);
+            this.btnPIVClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPIVClear.Name = "btnPIVClear";
-            this.btnPIVClear.Size = new System.Drawing.Size(106, 23);
+            this.btnPIVClear.Size = new System.Drawing.Size(141, 28);
             this.btnPIVClear.TabIndex = 0;
             this.btnPIVClear.Text = "Clear";
             this.btnPIVClear.UseVisualStyleBackColor = true;
@@ -897,9 +973,10 @@ namespace CSharpSample
             // picPIVCropMask
             // 
             this.picPIVCropMask.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picPIVCropMask.Location = new System.Drawing.Point(176, 55);
+            this.picPIVCropMask.Location = new System.Drawing.Point(235, 68);
+            this.picPIVCropMask.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picPIVCropMask.Name = "picPIVCropMask";
-            this.picPIVCropMask.Size = new System.Drawing.Size(140, 120);
+            this.picPIVCropMask.Size = new System.Drawing.Size(186, 147);
             this.picPIVCropMask.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPIVCropMask.TabIndex = 1;
             this.picPIVCropMask.TabStop = false;
@@ -907,21 +984,23 @@ namespace CSharpSample
             // picPIVImage
             // 
             this.picPIVImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picPIVImage.Location = new System.Drawing.Point(13, 55);
+            this.picPIVImage.Location = new System.Drawing.Point(17, 68);
+            this.picPIVImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picPIVImage.Name = "picPIVImage";
-            this.picPIVImage.Size = new System.Drawing.Size(140, 120);
+            this.picPIVImage.Size = new System.Drawing.Size(186, 147);
             this.picPIVImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPIVImage.TabIndex = 1;
             this.picPIVImage.TabStop = false;
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(668, 537);
+            this.ClientSize = new System.Drawing.Size(891, 661);
             this.Controls.Add(this.tabCtlSample);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
